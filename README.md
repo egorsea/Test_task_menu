@@ -20,6 +20,8 @@
 Задание выложить на гитхаб.
 
 
+Результат работы:
+
 ![image](https://user-images.githubusercontent.com/118097491/227166141-62f4118c-d700-4b3d-b33a-3ff0f379eabe.png)
 
 ![image](https://user-images.githubusercontent.com/118097491/227166377-331819c7-eef6-4eb7-972e-369b2a8d04f8.png)

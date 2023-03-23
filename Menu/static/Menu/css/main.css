@@ -1,0 +1,60 @@
+body{
+    margin: 10px 10px;
+}
+.flexconteiner{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.flexitem{
+    background: black;
+    width: 33%;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+ul#nav {
+    list-style-type: none;
+    width: 100%;
+    background: black;
+    padding-left: 0;
+}
+ul#nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    line-height: 200%;
+    display: block;
+    border-bottom: 1px solid #777;
+    padding-left: 1em;
+}
+ul#nav li a:hover {
+    background: #633;
+}
+
+ul#nav li.multi::before {
+    content: "\25B6";
+    color: red;
+    float: left;
+}
+
+li.active {
+    background: grey;
+}
+
+ul#nav li.multi:hover::before {
+    content: "\25BC";
+}
+
+ul#nav li.multi ul {
+    display: none;
+    padding-left: 0;
+}
+ul#nav li.multi:hover > ul:first-of-type {
+    display: block;
+    margin-left: 20px;
+}

@@ -1,0 +1,5 @@
+schedule
+psycopg2
+datetime
+pytelegrambotapi
+schedule
